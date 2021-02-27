@@ -21,7 +21,7 @@ app.get("/", (req, res, next)=>{
     res.send("welcome to academic rest api");
 });
 
-// user routes loading
+// users routes loading
 const userRoutes = require("./routes/user.route");
 userRoutes(app);
 
